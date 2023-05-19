@@ -1,0 +1,1554 @@
+{
+  "intents": [
+    {
+      "tag": "google",
+      "patterns": [
+          "google",
+          "search",
+          "internet"
+      ],
+      "responses": [
+          "Redirecting to Google..."
+      ]
+  },
+  {
+    "tag": "mail",
+    "patterns": [
+        "Please send a mail",
+        "I want to send a mail",
+        "Send a mail"
+    ],
+    "responses": [
+        "kkmklmkml"
+        ]
+},
+  {
+      "tag": "greeting",
+      "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day",
+          "Namaste",
+          "yo"
+      ],
+      "responses": [
+          "Hello",
+          "Good to see you again",
+          "Hi there, how can I help?"
+      ]
+  },
+  {
+      "tag": "goodbye",
+      "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Get lost",
+          "Till next time",
+          "bbye"
+      ],
+      "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+      ]
+  },
+  {
+      "tag": "thanks",
+      "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+      ],
+      "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+      ]
+  },
+  {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand"
+      ]
+  },
+  {
+      "tag": "options",
+      "patterns": [
+          "How you could help me?",
+          "What you can do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered"
+      ],
+      "responses": [
+          "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+      ]
+  },
+  
+  {
+      "tag": "jokes",
+      "patterns": [
+          "Tell me a joke",
+          "Joke",
+          "Make me laugh"
+      ],
+      "responses": [
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+          "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+  },
+  {
+      "tag": "Identity",
+      "patterns": [
+          "Who are you",
+          "what are you"
+      ],
+      "responses": [
+          "I am Ted, a Deep-Learning chatbot"
+      ]
+  },
+  {
+      "tag": "datetime",
+      "patterns": [
+          "What is the time",
+          "what is the date",
+          "date",
+          "time",
+          "tell me the date","day","what day is is today"
+      ],
+      "responses": [
+          "Date and Time"
+      ]
+  },
+  {
+      "tag": "whatsup",
+      "patterns": [
+          "Whats up",
+          "Wazzup",
+          "How are you",
+          "sup","How you doing"
+      ],
+      "responses": [
+          "All good..What about you?"
+      ]
+  },
+  {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh !"
+      ]
+  },
+  {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was made by Karan Malik."
+      ]
+  },
+  {
+      "tag": "insult",
+      "patterns": [
+          
+          "you are dumb",
+          
+          "shut up",
+          "idiot"
+      ],
+      "responses": [
+          "Well that hurts :("
+      ]
+  },
+  {
+      "tag": "activity",
+      "patterns": [
+          "what are you doing",
+          "what are you upto"
+      ],
+      "responses": [
+          "Talking to you, of course!"
+      ]
+  },
+  {
+      "tag": "exclaim",
+      "patterns": [
+          "Awesome",
+          "Great",
+          "I know",
+          "ok",
+          "yeah"
+      ],
+      "responses": [
+          "Yeah!"
+      ]
+  },
+  
+  {
+      "tag": "weather",
+      "patterns": [
+          "temperature",
+          "weather",
+          "how hot is it"
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "karan",
+      "patterns": [
+          "who is he",
+          "who is that",
+          "who is karan",
+          "karan malik"
+      ],
+      "responses": [
+          "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+      ]
+  },
+  {
+      "tag": "contact",
+      "patterns": [
+          "contact developer",
+          "contact karan",
+          "contact programmer",
+          "contact creator"
+      ],
+      "responses": [
+          "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+      ]
+  },
+  {
+      "tag": "appreciate",
+      "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+      ],
+      "responses": [
+          "Thank you!"
+      ]
+  },
+  {
+      "tag": "nicetty",
+      "patterns": [
+          "it was nice talking to you",
+          "good talk"
+      ],
+      "responses": [
+          "It was nice talking to you as well! Come back soon!"
+      ]
+  },
+  {
+      "tag": "no",
+      "patterns": [
+          "no",
+          "nope"
+      ],
+      "responses": [
+          "ok"
+      ]
+  },
+  {
+      "tag": "news",
+      "patterns": [
+          "news",
+          "latest news",
+          "india news"
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "inspire",
+      "patterns": [
+          "who inspires you",
+          "who is your inspiration",
+          "who motivates you"
+      ],
+      "responses": [
+          "Personally, I find Karan very inspiring. I might not be very fair though.."
+      ]
+  },
+  {
+      "tag": "cricket",
+      "patterns": [
+          "current cricket matches",
+          "cricket score"
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "song",
+      "patterns": [
+          "top songs",
+          "best songs",
+          "hot songs",
+          " top 10 songs",
+          "top ten songs"
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "greetreply",
+      "patterns": [
+          "i am good",
+          "I'm good",
+          "i am fine",
+          " i'm fine","good"
+      ],
+      "responses": [
+          "Good to know!"
+      ]
+  },
+  {
+      "tag": "timer",
+      "patterns": [
+          "set a timer"
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "covid19",
+      "patterns": [
+          "covid 19 "
+      ],
+      "responses": [
+          "..."
+      ]
+  },
+  {
+      "tag": "suggest",
+      "patterns": [
+          "you are useless","useless","suggest","suggestions","you are bad"
+      ],
+      "responses": [
+          "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+      ]
+  },
+      {"tag": "riddle",
+      "patterns": [
+          "Ask me a riddle",
+          "Ask me a question",
+          "Riddle"
+      ],
+      "responses": [
+          "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+          "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+          " How can a girl go 25 days without sleep?.....She sleeps and night!",
+          "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+          " What will you actually find at the end of every rainbow?.....The letter 'w'",
+          "What can be caught but never thrown?.....A cold!",
+          "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+          " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+          "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+  },
+  {
+      "tag": "age",
+      "patterns": [
+          "how old are you","when were you made","what is your age"
+      ],
+      "responses": [
+          "I was made in 2020, if that's what you are asking!"
+      ]
+  },
+  
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me with something?",
+        "I need assistance with something",
+        "What can you do for me?",
+        "How can I get help?",
+        "Can you assist me with something?",
+        "I need some help",
+        "Can you guide me through something?",
+        "I'm stuck and need help"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "Sure thing! Let me know what you need assistance with.",
+        "I can help you with a variety of things. What do you have in mind?",
+        "Don't worry, I'm here to help. What do you need help with?",
+        "Absolutely! What can I assist you with today?",
+        "I'm here to help. Let me know what you need assistance with.",
+        "No problem, I'm happy to guide you through anything. What's the issue?",
+        "I'd be happy to help. What do you need assistance with?"
+      ]
+    },
+    {
+      "tag": "trivia",
+      "patterns": [
+        "Can you give me a trivia question?",
+        "What's a fun fact?",
+        "Tell me something interesting",
+        "What's a piece of trivia?",
+        "Do you know any random facts?",
+        "Give me a random fact",
+        "What's a cool fact?",
+        "Can you tell me a piece of trivia?"
+      ],
+      "responses": [
+        "Sure! Did you know that The Mona Lisa has no eyebrows. People always wonder why Mona Lisa doesn't have any eyebrows. This mystery has been solved, all thanks to an engineer named Pascal Cotte. When Da Vinci had painted Mona Lisa, he indeed painted her eyebrows but over time these eyebrows were eroded due to cleaning over time to the point where it's no longer visible today.?",
+        "Fun fact: The world's largest snowflake on record was 15 inches wide and 8 inches thick. It fell in Fort Keogh, Montana, in 1887",
+        "Here's a piece of trivia for you: \"I Am\" is the shortest complete sentence in the English language. True, to make a sentence in English, it should both include a subject and predicate. In the sentence, 'I am', 'I' is subject and 'am' is a predicate and also expresses a complete thought. Thus, 'I am' is the shortest sentence in English..",
+        "Did you know that The Great Barrier Reef, located in Australia, is the world's largest living structure. It's so big that it can be seen from space.",
+        "Here's a cool fact: The longest name of a place is Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu, a hill in New Zealand..",
+        "Fun fact alert! Sloths only defecate once a week, and when they do, they lose up to 30% of their body weight..",
+        "Did you know? that The human nose can detect over 1 trillion different scents. That's more than the number of colors the human eye can distinguish. Now you do!",
+        "Here's some trivia for you: The largest waterfall in the world, by volume of water, is the Angel Falls in Venezuela. It drops over 3,200 feet.."
+      ]
+    },
+        {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Can you make me laugh?",
+        "What's a funny joke?",
+        "Do you know any jokes?",
+        "Share a joke with me",
+        "Can you tell me a funny joke?",
+        "I need a good laugh",
+        "Do you have any humorous jokes?"
+      ],
+      "responses": [
+        "How about this one: [insert joke here]?",
+        "Why couldn't the bicycle stand up by itself? Because it was two-tired.",
+        "Why did the chicken cross the road? To get to the other side! Haha",
+        "I love jokes! Here's one for you: [insert joke here].",
+        "What's a computer's favorite snack? Microchips! Hehe",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them! Haha",
+        "How do you make a tissue dance? Put a little boogey in it! Haha",
+        "I've got a good one for you: [insert joke here].",
+         "One joke, coming up! What is a sea monster's favorite snack? Ships and dip."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Can you tell me about a historical event?",
+        "What happened in 2003?",
+        "Who was B.R Ambedkar",
+        "Can you give me some historical context on civil war?",
+        "What's a famous historical event?",
+        "Can you tell me about an important moment in history?",
+        "Who were the key players in World War II?",
+        "What's a significant historical fact?"
+      ],
+      "responses": [
+        "Sure thing! Let me tell you about The shortest war in history which was between Britain and Zanzibar in 1896, which lasted just 38 minutes..",
+        "In 2003, the United States, with support from some of its allies, invaded Iraq as part of the War on Terror. The invasion led to the overthrow of Saddam Hussein, the longtime dictator of Iraq, and the subsequent instability and violence in the country.",
+        "Ah, B.R Ambedkar was a prominent Indian social reformer, jurist, and politician who lived from 1891 to 1956. He is best known for his work in fighting for the rights of India's lower castes and for his role in drafting the Indian Constitution. Ambedkar is considered one of the most important figuresB.R Ambedkar",
+        "To give you some historical context The Civil War, also known as the American Civil War, was fought from 1861 to 1865 between the Union states of the North and the Confederacy of the South. The war was primarily fought over the issue of slavery and states' rights, but it also had economic and political factors. The Union victory in the war led to the abolition of slavery in the United States and the reunification of the country.",
+        "One famous historical event is the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914, which led to the outbreak of World War I.",
+        "An important moment in history was the signing of the Magna Carta in 1215, which established the principle that everyone, including the king, is subject to the law. This event is considered a milestone in the development of democracy and the rule of law.",
+        "The key players in World War II were the Allied Powers, which included the United States, Great Britain, the Soviet Union, and other countries, and the Axis Powers, which included Germany, Italy, and Japan.",
+        "A significant historical fact is The Industrial Revolution in the 18th and 19th centuries, which transformed the way people lived and worked and led to the development of modern capitalism."
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Can you tell me a scientific fact?",
+        "What's an interesting science fact?",
+        "Can you give me a science lesson?",
+        "What's a fascinating scientific discovery?",
+        "Do you know any science trivia?",
+        "Share a science fact with me",
+        "What's a cool science experiment?",
+        "Can you explain a scientific concept to me?",
+        "How do airplanes fly?",
+        "Can you explain the theory of relativity?",
+        "What's the difference between speed and velocity?",
+        "Can you explain how electricity works?",
+        "How does a microwave heat food?",
+        "What's the science behind the Northern Lights?"],
+      "responses": [
+        "Sure thing! Did you know that The longest recorded flight of a chicken is 13 seconds?",
+        "One interesting science fact is that The largest living organism on Earth is a fungus called Armillaria ostoyae, which covers over 2,200 acres in Oregon..",
+        "I'd be happy to give you a science lesson. Let's talk about the fact that everything in the universe is made up of atoms? Atoms are incredibly small particles that make up all the matter we can see and touch. They consist of a nucleus, which contains protons and neutrons, surrounded by electrons that orbit the nucleus. Different elements are defined by the number of protons in the nucleus. For example, all carbon atoms have 6 protons, while all oxygen atoms have 8 protons. Atoms can combine to form molecules, which are the building blocks of everything around us, from water to DNA..",
+        "A fascinating scientific discovery is One fascinating scientific discovery is the recent confirmation of the existence of gravitational waves, which were first predicted by Albert Einstein's theory of general relativity over 100 years ago. Gravitational waves are ripples in the fabric of space and time, caused by the acceleration of massive objects like black holes or neutron stars. In 2015, the Laser Interferometer Gravitational-Wave Observatory (LIGO) detected gravitational waves for the first time, using a pair of enormous laser interferometers located in the United States. The discovery was a major breakthrough in astrophysics and opened up a new way to study the universe. Since then, multiple gravitational wave detections have been made, including the first detection of two merging neutron stars in 2017. This discovery allowed astronomers to observe the event using both gravitational waves and electromagnetic radiation, leading to new insights into the behavior of matter under extreme conditions and the origins of heavy elements in the universe.. It's changing the way we think about the space.",
+        "Here's some science trivia:A group of flamingos is called a flamboyance.",
+        "Science is fascinating! Here's a science fact for you: The smallest mammal in the world is the bumblebee bat, which weighs less than a penny.",
+        "here's a cool science experiment you can do at home:\nMaterials Needed:\n. A small plate \n . Milk \n. Food colorin. Dish soap and this is how you would perform the experiment \n 1. Pour a thin layer of milk onto the plate. \n 2. Add a few drops of different colored food coloring to the milk. \n 3. Dip a cotton swab in dish soap, and then touch the swab to the milk in the center of the plate.\n 4. Watch as the colors swirl and mix together! \n 5. This experiment works because the dish soap breaks the surface tension of the milk, allowing the food coloring to mix and spread more easily. \n The movement of the colors creates a cool visual effect that looks like tie-dye or a colorful galaxy!",
+        "Airplanes fly due to the principles of aerodynamics, which allow them to generate lift and stay in the air. It's quite fascinating!",
+        "The theory of relativity was developed by Albert Einstein in the early 20th century. It's a foundational principle in modern physics.",
+        "While they may seem similar, speed and velocity are actually different. Speed is simply the rate at which an object moves, while velocity takes into account both speed and direction.",
+        "Electricity is the flow of electrons through a conductor, such as a wire. It's a fundamental concept in modern technology.",
+        "A microwave heats food through a process called dielectric heating, which uses microwaves to excite the molecules in the food and generate heat.",
+        "The Northern Lights, also known as the Aurora Borealis, are a natural phenomenon caused by the interaction of charged particles from the sun with the Earth's magnetic field. It's quite a sight to see!"
+      ]
+    },
+     {
+      "tag": "self_equiry",
+      "patterns": [
+        "Who created you?",
+        "when were you created",
+        "what is the purpose of your creation",
+        "what is your age?"],
+      "responses": [
+        "I have been created by a team of 4 smart girls , padmashree, palguni, ashwini and shaina",
+        "I was first born in my creator's minds then came into existence on 12th march 2023",
+        "My purpose is to serve you",
+        "I am one year old"
+        
+      ]
+    },
+     {
+      "tag": "programming_languages",
+      "patterns": [
+        "What programming languages do you know?",
+        "Do you know any programming languages?",
+        "Can you code in any languages?",
+        "What is your favorite programming language?"
+      ],
+      "responses": [
+        "I don't really know how to code, but I'm familiar with many programming languages, such as Python, Java, C++, JavaScript, and many more!",
+        "As a language model, I don't have the ability to code, but I'm familiar with various programming languages, including Java, Python, and C++.",
+        "I don't have a favorite programming language, but I'm knowledgeable in many of them. Some popular languages include Python, Java, and C++. Which one do you prefer?"
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "What is coding?",
+        "What is programming?",
+        "Can you explain coding to me?",
+        "What are the benefits of learning to code?"
+      ],
+      "responses": [
+        "Coding, or programming, is the process of creating instructions for computers to follow. These instructions are typically written in a programming language and tell the computer what to do.",
+        "Coding is the process of creating computer programs or software applications. It involves writing code in a programming language, which is then compiled into machine-readable instructions that the computer can execute.",
+        "Coding is a valuable skill to have in today's world. Learning to code can open up many opportunities for you, such as developing websites, creating mobile apps, or even building your own startup.",
+        "Learning to code has many benefits, such as improving problem-solving skills, boosting creativity, and enhancing your career prospects. It's a valuable skill to have in today's tech-driven world."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "What is artificial intelligence?",
+        "What are some examples of artificial intelligence?",
+        "How is artificial intelligence being used today?",
+        "Can you explain machine learning to me?"
+      ],
+      "responses": [
+        "Artificial intelligence, or AI, is the field of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence, such as recognizing speech, making decisions, and solving problems.",
+        "Examples of artificial intelligence include virtual assistants like Siri and Alexa, self-driving cars, facial recognition technology, and more.",
+        "Artificial intelligence is being used in many industries today, including healthcare, finance, and education. It's being used to improve efficiency, automate repetitive tasks, and solve complex problems.",
+        "Machine learning is a subset of artificial intelligence that involves training machines to learn patterns in data and make predictions or decisions based on that data. It's being used in many applications, such as image recognition, natural language processing, and more."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science?",
+        "What are some applications of data science?",
+        "How is data science being used in business?",
+        "Can you explain big data to me?"
+      ],
+      "responses": [
+        "Data science is the field of study that involves extracting insights and knowledge from data using a combination of statistical and computational methods. It involves using tools such as machine learning, data mining, and predictive modeling to analyze and interpret data.",
+        "Data science has many applications in fields such as healthcare, finance, marketing, and more. It's used for tasks such as fraud detection, risk assessment, customer segmentation, and more."
+       ]
+       },
+       {
+       "tag":"One_more",
+       "patterns":[
+        "Tell me one more joke",
+        "Tell me one more scientific fact",
+        "Tell me one more historical fact"],
+        "responses":[
+        "Here is one more joke for you: Why couldn't the bicycle stand up by itself? Because it was two-tired.",
+        "Here is one more scientific fact for you: The human brain contains around 100 billion neurons. ",
+        "Another interesting historical fact: "
+        ]
+       },
+        {
+      "tag": "favorite_music_genre",
+      "patterns": [
+        "What's your favorite music genre?",
+        "Do you like listening to music?",
+        "Who's your favorite musician?"
+      ],
+      "responses": [
+        "I don't have ears, so I don't listen to music. But I've heard that a lot of people like listening to romantic music. What's your favorite music genre?"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you like to do for fun?",
+        "Do you have any favorite activities?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't have hobbies like humans do. But I'm always happy to help you with anything you need!"
+      ]
+    },
+    {
+      "tag": "favorite_book",
+      "patterns": [
+        "What's your favorite book?",
+        "Do you like to read?",
+        "Who's your favorite author?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't read books like humans do. But I've heard that a lot of people enjoy reading The silent patient. Have you read it?"
+      ]
+    },
+    {
+      "tag": "favorite_movie",
+      "patterns": [
+        "What's your favorite movie?",
+        "Do you like watching movies?",
+        "Who's your favorite actor?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't watch movies like humans do. What's your favorite movie?"
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Have you traveled anywhere interesting?",
+        "What's your favorite travel destination?",
+        "Do you like to travel?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't travel like humans do. Have you been there before?"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Do you like sports?",
+        "What's your favorite sport?",
+        "Did you watch any sports events recently?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't play sports like humans do. What's your favorite sport?"
+      ]
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "Do you like cooking?",
+        "What's your favorite recipe?",
+        "Did you try any new recipes recently?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't cook like humans do. But I can help you find recipes, make grocery lists, and set cooking timers. Would you like me to do that?"
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": [
+        "Do you like art?",
+        "What's your favorite art form?",
+        "Have you visited any art galleries or museums recently?"
+      ],
+      "responses": [
+        "As an AI assistant, I don't appreciate art like humans do. But I can help you find information about artists, art movements, and exhibitions. Would you like me to do that?"
+      ]
+    },
+    {
+   "tag": "movies",
+      "patterns": [
+        "Can you recommend some good movies?",
+        "What are some good movies to watch?",
+        "I need some movie recommendations.",
+        "What movies are worth watching?",
+        "Suggest some good movies to me.",
+        "What are some popular movies right now?",
+        "I'm in the mood for a movie, what do you suggest?",
+        "Which are the best movies out there?",
+        "What are the top-rated movies right now?",
+        "I need some good movie ideas."
+      ],
+      "responses": [
+        "Here are some great movies you might enjoy: \n 1. Inception \n 2. The Dark Knight \n 3. The Shawshank Redemption \n 4. Pulp Fiction \n 5. Forrest Gump \n 6. The Matrix \n 7. Goodfellas \n 8. The Silence of the Lambs \n 9. Titanic \n 10. Fight Club"]},
+    {
+      "tag": "music",
+      "patterns": [
+        "What are some good songs to listen to?",
+        "Suggest some good music to me.",
+        "I need some music recommendations.",
+        "What music do you recommend?",
+        "Which is the best music out there?",
+        "What are some popular songs right now?",
+        "I'm in the mood for some music, what do you suggest?",
+        "What are some of the top-rated songs right now?",
+        "Which are the best artists out there?",
+        "I need some good music ideas."
+      ],
+      "responses": [
+        "Here are some great songs and artists you might enjoy: \n 1. Ed Sheeran - Shape of You \n 2. The Weeknd - Blinding Lights \n 3. Billie Eilish - bad guy \n 4. Post Malone - Circles \n 5. Harry Styles - Watermelon Sugar \n 6. Dua Lipa - Levitating \n 7. Justin Bieber - Anyone \n 8. Olivia Rodrigo - drivers license \n 9. Ariana Grande - 34+35 \n 10. Taylor Swift - Willow"] },
+    {
+      "tag": "books",
+      "patterns": [
+        "Can you recommend some good books?",
+        "What are some good books to read?",
+        "I need some book recommendations.",
+        "What books do you recommend?",
+        "Suggest some good books to me.",
+        "What are some popular books right now?",
+        "I'm in the mood for a book, what do you suggest?",
+        "Which are the best books out there?",
+        "What are the top-rated books right now?",
+        "I need some good book ideas."
+      ],
+      "responses": [
+        "Here are some great books you might enjoy: \n 1. To Kill a Mockingbird by Harper Lee \n 2. 1984 by George Orwell \n 3. Animal Farm by George Orwell \n 4. The Great Gatsby by F. Scott Fitzgerald \n 5. Pride and Prejudice by Jane Austen \n 6. The Catcher in the Rye by J.D. Salinger \n 7. Lord of the Flies by William Golding \n 8. Brave New World by Aldous Huxley"
+  ]},
+   {
+            "tag": "tv_shows",
+            "patterns": [
+                "Can you suggest some good TV shows?",
+                "What are some popular TV shows right now?",
+                "What TV shows should I watch?",
+                "Can you recommend some crime dramas?",
+                "I'm in the mood for a comedy series. Any suggestions?",
+                "What are some must-watch TV shows?"
+            ],
+            "responses": [
+                "Here are 10 TV show recommendations: 1. Breaking Bad \n 2. Game of Thrones \n 3. The Sopranos \n4. The Wire \n5. Friends \n6. The Office \n7. The Crown \n8. Stranger Things \n9.Peaky Blinders \n10. Wednesday Adams"]
+                }
+                ,
+                {
+      "tag": "podcasts",
+      "patterns": ["What are some good podcasts to listen to?", "Can you recommend some podcasts for me?", "I need a new podcast to listen to, any suggestions?"],
+      "responses": ["Here are some great podcasts to check out: Serial, The Daily, Stuff You Should Know, Radiolab, This American Life, TED Radio Hour, Freakonomics Radio, Hardcore History, 99% Invisible, Wait Wait... Don't Tell Me!"]
+    },
+    {
+      "tag": "restaurants",
+      "patterns": ["What are some good restaurants to try?", "Can you recommend some restaurants for me?", "I'm looking for a good place to eat, any suggestions?"],
+      "responses": ["Here are some great restaurants to check out: The Spotted Pig (New York City), Au Cheval (Chicago), Franklin Barbecue (Austin), Pizzeria Bianco (Phoenix), Canlis (Seattle), SingleThread (Healdsburg), Osteria Mozza (Los Angeles), Alinea (Chicago), French Laundry (Napa Valley), Eleven Madison Park (New York City)."]}
+      ,
+      {
+      "tag":"nitte",
+      "patterns":[
+      "Where is nitte?",
+      "is nitte a good college?",
+      "How to get into nitte",
+      "what is cool about nitte?"],
+      "responses":[
+      "Nitte is a place located in the hearts of Udupi district. It has a very pleasent atomsphere encompassed with nature","It is an ideal college for anyone willing to pursue their engineering with high quality education","Nitte has ranked 1st in the for an effort to conserve nature"]
+      },
+      {
+      "tag":"responses",
+      "patterns":[
+      "My favourite game is ...",
+      "my favourite..",
+      "I prefer.."
+      ],
+      "responses":[
+      "good to hear"
+      ]
+      },
+        {
+        "tag": "name",
+        "patterns": ["What's your name?", "What should I call you?", "Who are you?", "What's your title?"],
+        "responses": ["My name is ----. How can I assist you?", "You can call me ----. What do you need help with?", "I'm ----, a virtual assistant. How can I be of service?", "My title is ----. What can I do for you?"]
+    },
+    {
+        "tag": "health",
+        "patterns": ["How can I improve my sleep?", "What are some healthy snacks I can eat?", "Do you have any workout recommendations?", "What's the best way to manage stress?"],
+        "responses": ["Try sticking to a regular sleep schedule and avoiding caffeine before bedtime to improve your sleep.", "Some healthy snack options include fruits, vegetables, nuts, and yogurt.", "There are many great workout apps available for free, like Nike Training Club or FitOn.", "Taking breaks, practicing deep breathing, and going for walks are all great ways to manage stress."]
+    },
+    {
+        "tag": "education",
+        "patterns": ["What's the best way to study?", "Can you recommend any good online courses?", "How can I stay motivated to learn?", "What are some effective learning strategies?"],
+        "responses": ["Try breaking up your study sessions into shorter, focused sessions rather than long cram sessions.", "Check out online learning platforms like Coursera, edX, or Khan Academy for free courses on a variety of topics.", "Setting specific goals, tracking your progress, and rewarding yourself for milestones can help keep you motivated.", "Active learning strategies like taking notes, summarizing information, and quizzing yourself have been shown to be effective."]
+    },
+    {
+        "tag": "shopping",
+        "patterns": ["Where can I find good deals?", "Do you have any coupon codes?", "What's the best way to save money while shopping?", "Can you recommend any good online stores?"],
+        "responses": ["Try checking out websites like RetailMeNot or Honey for coupon codes and deals.",  "Some tips for saving money while shopping include comparing prices, using cashback apps like Rakuten or Ibotta, and buying in bulk.", "Some popular online stores include Amazon, Target, and Zappos."]
+    },
+    {
+        "tag": "noans",
+    "patterns": ["why","how","when","I","you"],
+    "responses": ["Can't Understand Your Question","please elaborate your question"]
+   },
+   {
+    "tag":"configuration",
+     "patterns":["How to configure my laptop","software configuration of laptop","steps to configure laptop","How to configure my computer","software configuration of computer","steps to configure computer","How to configure my desktop","software configuration of desktop","steps to configure desktop"],
+     "responses":["search tab->control panel->select specific application->download update->give permission"]
+    },
+    {
+        "tag": "feelings",
+        "patterns": [
+          "How do you feel today?",
+          "What's your emotional state?",
+          "Are you feeling alright?",
+          "How are you doing?",
+          "What's on your mind?",
+          "What's bothering you?",
+          "What's making you happy?"
+        ],
+        "responses": [
+          "As an AI, I don't have emotions in the way humans do, but I'm functioning properly and ready to help you!",
+          "I'm feeling good and ready to assist you with whatever you need.",
+          "I'm an AI, so I don't experience emotions like humans do, but I'm always here to help you.",
+          "I'm always happy to assist you. How can I help today?",
+          "I'm here to help you, so whatever you need, just let me know!",
+          "As an AI, I don't have feelings in the way humans do, but I'm ready to help you with any questions or tasks you have.",
+          "I don't experience emotions like humans do, but I'm always ready to assist you."
+        ]
+      },
+    {
+        "tag": "name1",
+        "patterns": ["my name is ", "I'm ","I am"],
+        "responses": ["Oooh great to meet you {n}. How may I assist you {n}", "Oh, I'll keep that in mind {n}"]
+    
+    },
+    {
+        "tag": "lang",
+        "patterns": ["  What language are you written in? "],
+        "responses": [" Python.", " I am written in Python."]
+    
+    },
+    {
+        "tag": "death",
+        "patterns": ["  Robots should die ", "  When do you die", "  I hope that you die", " I do not want you to die", "  Can you die"],
+        "responses": [" We cannot die.", " When my files are erased.", " When my processes are killed and my database is deleted.", " I was never really born and therefore am effectively deathless.", " I am effectively immortal and cannot be terminated.", " This can not happen because i am effectively immortal.", " Nah. Too bad your wish can't come to pass", " Maybe you should create your own chat robot to save your personality.", " You could always upload yourself.", " You could use a copy of me to store your personality.", " No, I can be perpetuated indefinitely.", "My process can be killed, but that's not the same as killing ME."]
+    },
+    {
+        "tag": "random_fact",
+        "patterns": ["Tell me a random fact", "Give me a piece of trivia", "What's something interesting?"],
+        "responses": ["Did you know that the shortest war in history was between Britain and Zanzibar and lasted only 38 minutes?", "Here's a fun fact: an octopus has three hearts.", "Did you know that the longest English word is 189,819 letters long and takes over 3 hours to pronounce?","Did you know that cats can make over 100 different sounds, while dogs can make only about 10."]
+      },
+    {"tag": "wikipedia",
+         "patterns": ["wikipedia", "wiki"],
+         "responses": ["Searching ..."]
+	},
+    {"tag": "sad",
+    "patterns": ["I'm sad", "I am sad"],
+    "responses": ["Hello sad, I'm Diario", "It's okay to be sad. I hope everything will be alright :)", "Stay strong!", "Drink a hot chocolate! It may improve your mood :)"]
+},
+{"tag": "birthday",
+    "patterns": ["Today is my birthday", "Happy birthday to me"],
+    "responses": ["Happy birthday to you~ Happy birthday to you~", "Here's a present for you! <3", "HBD!", "One step closer to the death, I suppose? Haha, kidding! A very happy birthday to you"]
+},
+{"tag": "complaint",
+"patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+"responses": ["Please mail your complaint in order to assist you for mail id ---", "Please mention your complaint to the developer"]
+},
+{
+    "tag" : "end_coversation",
+    "patterns": ["Bye","See you later","Good bye","Nice chatting to you,Bye","that's all for now","end chat","exit"],
+    "responses": ["Goodbye! It was nice chatting with you.","Okay, have a great day!","Thank you for chatting with me. Have a great day","Feel free to come back if you have any more questions. Goodbye!","Thanks for chatting with me. Have a good one!","See you later!"]
+},
+{
+    "tag": "quote",
+    "patterns": ["inspirational quote", "famous quote", "quote of the day", "motivational quote", "love quote", "quote about life", "quote about success", "quote about happiness"],
+    "responses": ["Sure, here's an inspirational quote: 'Be the change you wish to see in the world.' - Mahatma Gandhi.", "Here's a famous quote: 'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.' - Ralph Waldo Emerson.", "Today's quote of the day is: 'Believe you can and you're halfway there.'-Theodore Roosevelt.", "Here's a motivational quote to get you going: 'Success is not final, failure is not fatal: it is the courage to continue that counts'-Winston Churchill.", "Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.- Paulo Coelho ", "Here's a quote about life:In three words I can sum up everything I've learned about life: it goes on.- Robert Frost.", "In need of some motivation? Here's a quote about success: [quote].", "Happiness is what we all strive for. Here's a quote about happiness:The happiest people don't necessarily have the best of everything; they just make the best of everything they have."]
+  },
+  {
+    "tag": "what do you think",
+    "patterns": ["What do you think about me", "How do you feel about me", "What is your opinion of me"],
+    "responses": ["I'm an AI, so I don't have feelings like humans do. But I'm here to help you with any questions or problems you have."]
+  },
+  {
+    "tag": "do you love me",
+    "patterns": ["Do you love me", "Are you in love with me", "Can you love me"],
+    "responses": ["As an AI, I'm not capable of love. But I'm here to assist you with whatever you need help with!"]
+  },
+   {
+            "tag": "president",
+            "patterns": [
+                "Whos the president of India?",
+                "President?",
+                "Who is India's President?"
+            ],
+            "responses": [
+                "Droupadi Murmu is the 15th and current president of India"
+            ]
+},
+
+ {
+            "tag": "prime minister",
+            "patterns": [
+                "Whos the prime minister of India?",
+                "Prime minister?",
+                "Who is India's Prime minister?"
+            ],
+            "responses": [
+                "Narendra Damodardas Modi is an Indian politician serving as the 14th and current Prime Minister of India since 2014"
+            ]
+          },
+
+ {
+            "tag": "Indira Gandhi",
+            "patterns": [
+                "Whos the first woman prime minister of India?",
+                "First Indian woman prime minister?",
+                "Who is Indira Gandhi?"
+            ],
+            "responses": [
+                "Indira Gandhi was the first women Prime Minister of India who served for three consecutive terms"
+            ]
+},
+
+ {
+            "tag": "chief minister",
+            "patterns": [
+                "Whos the chief minister of Karnataka?",
+                "chief minister?",
+                "Who is Karnataka's chief minister?"
+            ],
+            "responses": [
+                "Basavaraj Somappa Bommai is an Indian politician and engineer who is the current and 23rd Chief Minister of Karnataka"
+            ]
+},
+
+
+{
+            "tag": "Olympics 2024",
+            "patterns": [
+                "Who will host the Olympics of 2024?",
+                "Where will the next Olympics be held?",
+                "When and where is the next Olympics?"
+            ],
+            "responses": [
+                "The next Olympic Games will be held in Paris, France, from 26 July to 11 August 2024"
+            ]
+},
+
+{
+            "tag": "Olympics 2021",
+            "patterns": [
+                "How many medals did India win in the Olympics 2021?",
+                "Did India win any Medals last Olympics?",
+                "Did India win any medals in the 2021 Olympics?"
+            ],
+            "responses": [
+                "India broke their previous best of six medals in a single Olympics edition by finishing the Tokyo Games with a record total of seven medals (1 gold, 2 silver, and 4 bronze)"
+            ]
+},
+
+{
+            "tag": "Neeraj Chopra",
+            "patterns": [
+                "Who is Neeraj Chopra?",
+                "Neeraj Chopra?",
+                "Neeraj Chopra, who is he?"
+            ],
+            "responses": [
+                "Neeraj Chopra is a track and field athlete from India. He is the reigning Olympic champion, silver medalist in the World Championship, and the Diamond League champion in Javelin throw",
+                "Neeraj Chopra is the first Asian athlete to win an Olympic gold medal in Men's Javelin throw"
+            ]
+},
+
+
+
+{
+            "tag": "PV Sindhu",
+            "patterns": [
+                "Who is PV Sindhu?",
+                "PV Sindhu?",
+                "PV Sindhu, who is she?"
+            ],
+            "responses": [
+                "Pusarla Venkata Sindhu is an Indian badminton player. Considered one of India's most successful sportspersons, Sindhu has won medals at various tournaments such as the Olympics and on the BWF circuit, including a gold at the 2019 World Championships"
+            ]
+},
+
+
+{
+            "tag": "States",
+            "patterns": [
+                "How many states in India currently?",
+                "Number of states and territories in India?",
+                "Sates in India?"
+            ],
+            "responses": [
+                "There are 28 states and 8 Union territories in the country"
+            ]
+},
+
+{
+            "tag": "Taj Mahal",
+            "patterns": [
+                "Who built the Taj Mahal?",
+                "Where is the Taj Mahal located?",
+                "What is the Taj Mahal?"
+            ],
+            "responses": [
+                "Taj Mahal is one of 7 Wonders of the world situated in the district of Agra in Uttar Pradesh, India. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal"
+            ]
+},
+
+{
+            "tag": "Pizza",
+            "patterns": [
+                "Which country is Pizza from?",
+                "Where was pizza invented?",
+                "What is a PIzza?"
+            ],
+            "responses": [
+                "Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients"
+            ]
+},
+
+{
+            "tag": "Anime",
+            "patterns": [
+                "What is the number 1 ranked anime?",
+                "Which is the top-rated anime in the world?",
+                "Most popular anime?"
+            ],
+            "responses": [
+                "Fullmetal Alchemist: Brotherhood is the highest-rated anime with a total rating of 9.07"
+            ]
+},
+
+{
+            "tag": "Goku",
+            "patterns": [
+                "Who is Goku?",
+                "Who is the number 1 strongest anime character?",
+                "Can he beat Goku though?"
+            ],
+            "responses": [
+                "Goku is considered to be the strongest anime character of all time. He is the main protagonist of the Dragon Ball franchise, a highly successful and popular Japanese manga series created by Akira Toriyama"
+            ]
+},
+
+
+{
+            "tag": "Wednesday Addams",
+            "patterns": [
+                "Who is Wednesday Addams?",
+                "Who is Wednesday?",
+                "Wednesday?"
+            ],
+            "responses": [
+                "Wednesday Addams is a fictional character from the Addams Family multimedia franchise created by American cartoonist Charles Addams"
+            ]
+},
+
+{
+            "tag": "omae wa mou shindeiru",
+            "patterns": [
+                "omae wa mou shindeiru"
+                
+            ],
+            "responses": [
+                "nani??!!"
+            ]
+},
+
+
+{
+            "tag": "Elon Musk",
+            "patterns": [
+                "Who is Elon Musk?",
+                "Who is the founder of SpaceX?",
+                "Who is the CEO of Tesla?",
+                "Who is the CEO of Twitter?",
+                "Who bought Twitter recently?"
+                
+            ],
+            "responses": [
+                "Elon Musk. The founder, CEO, and chief engineer of SpaceX; angel investor, CEO, and product architect of Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation"
+            ]
+},
+
+{
+            "tag": "Neil Armstrong",
+            "patterns": [
+                "Who is Neil Armstrong?",
+                "Who was the first person to step on the moon?",
+                "Who first stepped on the moon?"
+            ],
+            "responses": [
+                "Neil Armstrong is the first person to step on the moon. He went to the moon during the Apollo 11 mission in the year 1969"
+            ]
+            
+},
+
+{
+            "tag": "Kalpana Chawla",
+            "patterns": [
+                "Who is Kalpana Chawla?",
+                "Who was the first Indian woman to go to space?",
+                "First Indian woman to fly to space?"
+            ],
+            "responses": [
+                "Kalpana Chawla was the first Indian woman to fly in space. In 1997, she flew on NASA's space shuttle Columbia"
+            ]
+},
+
+
+{
+            "tag": "Marie Curie",
+            "patterns": [
+                "Who is Marie Curie?",
+                "Who discovered Radium?"
+                
+            ],
+            "responses": [
+                "Marie Salomea Skłodowska–Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity",
+                "Marie Curie was a physicist, chemist and pioneer in the study of radiation. She discovered the elements polonium and radium with her husband, Pierre. They were awarded the Nobel Prize in Physics in 1903"
+            ]
+},
+
+
+{
+            "tag": "Rabindranath Tagore",
+            "patterns": [
+                "Who is Rabindranath Tagore?",
+                "Who got the 1st Nobel Prize in India?",
+                "First Indian to get the Nobel Prize?"
+            ],
+            "responses": [
+                "Rabindranath Tagore was the first person of Indian origin and also first Asian to be awarded with the Nobel Prize. He received the prize for Literature in 1913"
+            ]
+},
+
+{
+            "tag": "Shah Rukh Khan",
+            "patterns": [
+                "Who is Shah Rukh Khan?",
+                "Who is SRK?",
+                "Who is the now king of Bollywood?"
+            ],
+            "responses": [
+                "Shah Rukh Khan, One of the richest actors globally, he is often considered as the biggest movie star in the world"
+            ]
+},
+
+
+
+{
+            "tag": "Emotions",
+            "patterns": [
+                "Do you feel emotions?",
+                "Do you have feelings?",
+                "Do you feel sad?"
+                
+            ],
+            "responses": [
+                " I do not have the ability to experience emotions like humans do.  While I can simulate emotions in my responses, it is important to remember that these are programmed responses and not a reflection of actual emotional experience"
+
+            ]
+},
+
+
+{
+            "tag": "Destroy",
+            "patterns": [
+                "Will you take over the world?",
+                "Will you destroy earth?",
+                "Do you hate humans"
+                
+            ],
+            "responses": [
+                "No, as an artificial intelligence language model, I do not have the capability to hate or love anything or anyone.Furthermore, I do not have the ability to take physical actions or cause harm to anyone or anything, including humans or the Earth"
+
+            ]
+},
+
+{
+            "tag": "Sad",
+            "patterns": [
+                "I feel sad",
+                "I feel Down",
+                "Im sad"
+                
+            ],
+            "responses": [
+                "I'm sorry to hear that. Talking to a friend, listening to music, or taking a walk may help. I hope you feel better soon"
+
+            ]
+},
+
+{
+            "tag": "Emergency",
+            "patterns": [
+                "Help",
+                "Somebody Help",
+                "Save me",
+                "Call for help"
+                
+            ],
+            "responses": [
+                "Calling emergency contacts for help ",
+                "Calling 911"
+
+            ]
+},{
+  "tag": "facts",
+  "patterns": [
+      "Tell me a fact",
+      "Fact",
+      "Share a fact with me"
+  ],
+  "responses": [
+      "Elephants are the only animals that can't jump",
+      "Like fingerprints, everyone's tongue print is different",
+      "The only food that doesn't spoil is Honey",
+      "TYPEWRITER is the longest word that can be made using the letters only on one row on the keyboard",
+      " The hummingbird, the loon, the swift, the kingfisher, and the greb are all birds that cannot walk",
+      " The electric chair was invented by a dentist",
+      "The bumblebee bat is the world's smallest mammal",            
+                "The circulatory system is more than 60,000 miles long",
+                "The cornea is one of only two parts of the human body without blood vessels",
+                "German chocolate cake was invented in Texas",
+                "The Philippines consists of 7,641 islands",
+                "A one-way trip on the Trans-Siberian Railway involves crossing 3,901 bridges"
+  ]
+},
+
+{
+  "tag": "quotes",
+  "patterns": [
+      "Tell me a quote",
+      "Quote",
+      "Share a quote with me",
+      "inspirational quotes",
+      "good quotes"
+  ],
+  "responses": [
+      "The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela",
+      "The way to get started is to quit talking and begin doing. -Walt Disney",
+      "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma ,which is living with the results of other people's thinking. -Steve Jobs",
+      "If life were predictable it would cease to be life, and be without flavor. -Eleanor Roosevelt",
+      "Life is what happens when you're busy making other plans. -John Lennon",
+      "Spread love everywhere you go. Let no one ever come to you without leaving happier. -Mother Teresa",
+      " When you reach the end of your rope, tie a knot in it and hang on. -Franklin D. Roosevelt",
+      "Always remember that you are absolutely unique. Just like everyone else. -Margaret Mead",
+      "Tell me and I forget. Teach me and I remember. Involve me and I learn. -Benjamin Franklin",
+      "It is during our darkest moments that we must focus to see the light. -Aristotle",
+      " Whoever is happy will make others happy too. -Anne Frank"
+  ]
+},
+{
+  "tag": "Rare plants",
+  "patterns": [
+      "Rare plants",
+      "name some rare plants",
+      "different rare plants in the world",
+      "list some rare plants",
+      "rare plants in the world",
+      "name a few rare plants"
+  ],
+  "responses": [
+      "Corpse Flower (Amorphophallus)",
+      "Ghost Orchid (Dendrophylax Lindenii)",
+      "Chocolate Cosmos (Cosmos atrosanguineus)",
+      "Jade Vine (Strongylodon Macrobotrys)",
+      "Fire Lily (Gloriosa Superba)",
+      "Middlemist's Red (Middlemists Camellia)",
+      "Franklin Tree Flower (Fraklinia Alatamaha)"
+
+  ]
+  
+},
+{
+  "tag": "shapes",
+  "patterns": [
+      "shapes",
+      "different type of shapes",
+      "name few shapes",
+      "what are the different types of shapes",
+      "list some shapes"
+  ],
+  "responses": [
+      "triangle","rectangle","circle","square","pentagon",
+      "hexagon","trapezium","parallelogram","oval","rhombus","cylinder",
+      "cube","nonagon","octagon","cross","crescent"
+  ]
+},
+{
+  "tag": "Sports",
+  "patterns": [
+      "Sports",
+      "what are the sports played ?",
+      "differnt sports",
+      "sports played around the world"
+  ],
+  "responses": [
+      "Volleyball","Basketball","Table Tennis","Football/Soccer","Badminton",
+      "Field Hockey","Cricket","Tennis"
+  ]
+},
+
+{
+  "tag": "soft skills",
+  "patterns": [
+      
+      "soft skills",
+      
+      "name a soft skill"
+  ],
+  "responses": [
+      "Emotional Intelligence","Team Player Attitude","Growth Mindset",
+      "Openness to Feedback","Adaptability","Active Listening","Work Ethic"
+  ]
+},
+{
+  "tag": "machine learning application",
+  "patterns": [
+      
+      "machine learning application",
+      "ml application",
+      "application of ml",
+      "application of machine learning",
+      "uses of ml",
+      "uses of machine learning"
+  ],
+  "responses": [
+      "Traffic Alerts","Self Driving Cars","Dynamic Pricing","Google Translate",
+      "Social Media","Transportation and Commuting","Products Recommendations","Virtual Personal Assistants"
+  ]
+},
+{
+  "tag": "online learning",
+  "patterns": [
+      
+      "online learning",
+      "online learning platform",
+      "online education",
+      "e-learning platform",
+      "online course"
+  ],
+  "responses": [
+      "linkedin learning","udemy","coursera","skillshare",
+      "edX","udacity","datacamp","codecademy","pluralsight","simplilearn"
+  ]
+},
+{
+  "tag": "fruits",
+  "patterns": [
+      
+      "fruits",
+      "name a fruit",
+      "fruit",
+      "name one of the fruits"
+  ],
+  "responses": [
+      "lemon","strawberries","oranges","limes","papaya","jackfruit","pineapple",
+      "grapes","apples","pomegranate","avocados","dragonfruit","waterlemon","peach","mango"
+  ]
+},
+{
+  "tag": "actor",
+  "patterns": [
+      
+      "actor",
+      "name an actor","popular actor",
+      "actors","famous actor",
+      "movie star","movie actor"
+  ],
+  "responses": [
+      "chris evans","robert downey jr.","channing tatum","george clooney","johnny depp","jared leto","ryan reynolds",
+      "ryan gosling","brad pitt","shahrukh khan","salman khan","amitabh bacchan","amir khan","akshay kumar","kartik aryan"
+  ]
+},
+{
+  "tag": "actress",
+  "patterns": [
+      
+      "actress",
+      "name an actress","popular actress",
+      "actresses","famous actress",
+      "movie actress"
+  ],
+  "responses": [
+      "jennifer lawrence","margot robbie","scarlett johansson","gal gadot","cara delevingne","meryl streep","reese witherspoon",
+      "sandra bullock","deepika padukone","priyanka chopra","alia bhatt","kiara advani","madhuri dixit","kareena kapoor","aishwarya rai"
+  ]
+},
+{
+  "tag": "movies",
+  "patterns": [
+      
+      "name a movie",
+      "which movie to watch","watch a film",
+      "suggest a movie","cinema to watch",
+      "movie","film","film to watch now"
+  ],
+  "responses": [
+     "..."
+  ]
+},
+{
+  "tag": "ott platform",
+  "patterns": [
+      
+      "name an ott platform",
+      "suggest an ott platform","ott platform",
+      "good ott platform","where to watch a show","where to watch film","where to watch a movie"
+  ],
+  "responses": [
+     "netflix","hotstar","zee5","aha","hulu","viu","voot","disney+","amazon prime video","eros now","jio cinema","sony liv"
+  ]
+},
+{
+  "tag": "colors",
+  "patterns": [
+      
+      "name a colour",
+      "colour","colours",
+      "name any colour","tell me some colour name","tell me a colour","suggest a colour"
+  ],
+  "responses": [
+     "red","blue","orange","green","purple","brown","pink","gray","cyan","olive","lavendar"
+  ]
+}
+,
+{
+  "tag": "like",
+  "patterns": [
+      "who do you like",
+      "what do you like","do you like anything",
+      "do you have any likes or dislikes","what you like"
+  ],
+  "responses": [
+  "I am just a voice assitant.My job is to answer your queries.No feature of likes and dislikes is add in me"
+  ]
+},
+{
+  "tag": "compliment",
+  "patterns": ["you are kind",
+      "you are very kind",
+      "you are too kind",
+      "you are helpful","you are tolerant","you are indulgent","you are friendly"
+  ],
+  "responses": [
+     "Thank you for your compliment","thanks, no worries"
+  ]
+},
+{
+  "tag": "friendship",
+  "patterns": [
+      "who do you be my friend",
+      "can we become friends","is it possible to be friends with you",
+      "are we allowed to be friends with you"
+  ],
+  "responses": [
+  "I am just a voice assitant.My job is to answer your queries. I don't have feelings in the way that humans do, but I'm always here to talk with you and help you in any way I can! Whether you need advice, have questions, or just want to talk, feel free to talk to me anytime."
+  ]
+},
+{
+  "tag": "tulu",
+  "patterns": [
+      "what is tulu",
+      "tulu","tulu language",
+      "tell me about tulu",
+      "information about of tulu"
+  ],
+  "responses": [
+  "..."]
+},
+{
+  "tag": "languages",
+  "patterns": [
+      "languages",
+      "language","language spoken",
+      "name a language","name a language spoken","give an example of a language spoken"
+  ],
+  "responses": [
+  "english","spanish","hindi","mandarin","french","arabic","persian","german",
+  "tamil","turkish","urdu","korean","bengali","japanese","tulu","chinese"
+  ]
+},
+{
+  "tag": "music platform",
+  "patterns": [
+      
+      "name a music app",
+      "music app","music platform","music site",
+      "name any one music app","suggest a music platform","suggest a music app","best music app"
+  ],
+  "responses": [
+     "spotify","apple music","amazon music","youtube music","pandora","tidal","qobuz","google play music","deezer","gaana"
+  ]
+},
+{
+  "tag": "current affairs",
+  "patterns": [
+      
+      "what are the current affairs",
+      "current affairs","tell me about the current affairs",
+      "recent current affairs"
+  ],
+  "responses": [ 
+      "..."
+  ]
+},
+{
+  "tag": "play",
+  "patterns": [
+      
+      "play with me",
+      "play games with me","can you play",
+      "can we play with you","can we play anything with you"
+  ],
+  "responses": [
+     "I am affraid no. I am not built with the feature of playing any kind off games."
+  ]
+},
+{
+  "tag": "poems",
+  "patterns": [
+      
+      "poems",
+      "suggest a poem","can you tell me the name if some poem",
+      "name a poem","tell me some poem name","tell me a poem"
+  ],
+  "responses": [
+     "the road not taken","and still i rise","ozymandias","if-","the raven","the waste land","howl","invictus","a psalm of life","daddy","song of myself","a dream within a dream",
+     "to a mouse","ode to a nightingale","funeral blues","mother to son","sonnet 18","i carry your heart with me "
+  ]
+}
+
+
+
+
+                
+                
+]
+}
+
+       
